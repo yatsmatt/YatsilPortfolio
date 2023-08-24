@@ -1,4 +1,9 @@
+:root{
+    --main-color: #843fc4;
+    --line-color: #B3B5BB;
+}
 *{
-    margin: 0;
+    margin: 2;
+    /* color: #843fc4; */
 
 }
