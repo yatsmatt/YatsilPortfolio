@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+    overflow: hidden;
+    background: url('https://i.pinimg.com/originals/77/ca/a3/77caa32884d735d439ade45ba37feaf2.gif');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+    
