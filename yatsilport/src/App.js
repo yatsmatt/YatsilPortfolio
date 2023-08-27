@@ -7,12 +7,17 @@ import Router from "./Routes/Router";
 
 function App() {
   return (
-    <Container>
-      <Grid container>
-        <Grid item xs={12} sm={12} lg={4} md={3}>
+    <Container className="main">
+      <Grid container spacing={7}>
+        <Grid item sm={12} xs={12} lg={3} md={4} className=" container_shadow">
           <Profile />
         </Grid>
-        <Grid item xs style={{ backgroundColor: "red" }}>
+        <Grid
+          item
+          xs
+          style={{ backgroundColor: "#7363E5" }}
+          className=" container_shadow"
+        >
           <Header />
           <Router />
           <Footer />
