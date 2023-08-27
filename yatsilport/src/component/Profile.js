@@ -22,6 +22,7 @@ const Profile = () => {
           <Button
             variant="contained"
             color="primary"
+            style={{ backgroundColor: "#7363E5", color: "#fff" }}
             startIcon={<CloudDownloadIcon />}
           >
             Download My CV
