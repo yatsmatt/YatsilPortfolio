@@ -7,9 +7,8 @@ import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import { Typography } from "@mui/material";
-import CodeIcon from "@mui/icons-material/Code";
 import resumeData from "../../utils/resumeData";
-
+import PermIdentityIcon from "@mui/icons-material/PermIdentity";
 const MyTimeline = () => {
   return (
     <div>
@@ -17,13 +16,13 @@ const MyTimeline = () => {
         <TimelineItem className={"timeline_firstitem"}>
           <TimelineSeparator className={"timeline_sep"}>
             <TimelineDot className={"timeline_dot_header"}>
-              {<CodeIcon className="icon_info" />}
+              {<PermIdentityIcon className="icon_info" />}
             </TimelineDot>
             <TimelineConnector className="timeline_line" />
           </TimelineSeparator>
           <TimelineContent>
             <Typography variant="h6" className={"timeline_header"}>
-              {resumeData.timelinetitle}
+              <h6>{resumeData.timelinetitle}</h6>
             </Typography>
             <h6></h6>
           </TimelineContent>
@@ -37,10 +36,12 @@ const MyTimeline = () => {
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent>
-                <Typography variant="h6" className={"timeline_header"}>
-                  {item.first}
+                <Typography className={"timeline_header"}>
+                  <h6>
+                    {item.first}
+                    {item.sec}
+                  </h6>
                 </Typography>
-                <Typography variant="subtitle2">{item.sec}</Typography>
               </TimelineContent>
             </TimelineItem>
           );

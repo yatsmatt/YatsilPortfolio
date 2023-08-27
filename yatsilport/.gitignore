@@ -4,7 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
-
+.resumeData.js
+src/utils/resumeData.js
 # testing
 /coverage
 

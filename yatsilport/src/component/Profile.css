@@ -1,7 +1,8 @@
 .profile{
-    background-color: whitesmoke;
+    background-color: #0198FF;
     padding: auto;
-    display: inline-block;
+    border-radius: 10px;
+    display:inline-flexbox ;
     margin: auto;
   text-align: center;
 }
@@ -12,7 +13,6 @@
 }
 .profile_name .title{
     font-size: 13px;
-    color: grey;
 }
 .profile_image{
     -webkit-clip-path: polygon(0% 9% 100% 0% 95% 0% 100%);
