@@ -1,0 +1,44 @@
+.header{
+  margin-bottom:  3% !important;
+  background-color:   var( --bg-color);
+  border-radius:6px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  padding: 0 1% 1% 0  !important;
+}
+.header:hover {
+  transform: translateY(1px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 3%; 
+  }
+.social-icon {
+    color: black;
+  }
+  .social-icon:hover {
+    color: var(--line-color) !important;
+  }
+  .MuiTooltip-tooltip {
+    background-color: black;
+    white-space: nowrap;
+  }
+
+  .header .header_link{
+    font-weight: 500;
+  }
+  
+  .header .header_link:hover{
+    color: var(--line-color) !important;
+    font-weight: 700;
+  }
+
+  .header .header_link_active{
+    font-weight: 700;
+    color: var(--main-color) !important;
+
+  }
+  .home_icon:hover{
+    color: var(--line-color) !important;
+  }

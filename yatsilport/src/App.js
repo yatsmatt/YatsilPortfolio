@@ -12,12 +12,7 @@ function App() {
         <Grid item sm={12} xs={12} lg={3} md={4} className=" container_shadow">
           <Profile />
         </Grid>
-        <Grid
-          item
-          xs
-          style={{ backgroundColor: "#7363E5" }}
-          className=" container_shadow"
-        >
+        <Grid item xs>
           <Header />
           <Router />
           <Footer />
