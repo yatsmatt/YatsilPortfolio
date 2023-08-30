@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography, Button } from "@mui/material";
+import { Button } from "@mui/material";
 import "./Profile.css";
 import MyTimeline from "./Timeline/MyTimeline";
 import resumeData from "../utils/resumeData";
@@ -19,12 +19,15 @@ const Profile = () => {
         <MyTimeline />
         <br />
         <a href={resumeData.LinkToCv} target="_blank" rel="noopener noreferrer">
+          {/* need to fix the link here and the git ignor  */}
           <Button
+            className="Button_download"
             variant="contained"
             color="primary"
-            startIcon={<CloudDownloadIcon />}
+            style={{ backgroundColor: "#751A7F", color: "#fff" }}
           >
-            Download My CV
+            Download CV
+            {<CloudDownloadIcon />}
           </Button>
         </a>
       </div>

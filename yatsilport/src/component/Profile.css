@@ -1,18 +1,19 @@
 .profile{
-    background-color: #0198FF;
+    background-color: var( --bg-color);
     padding: auto;
     border-radius: 10px;
     display:inline-flexbox ;
     margin: auto;
   text-align: center;
 }
+
 .profile_name .name{
     text-transform: uppercase;
     font-size: 17px;
     font-weight: bold;
 }
 .profile_name .title{
-    font-size: 13px;
+    font-size: 10px;
 }
 .profile_image{
     -webkit-clip-path: polygon(0% 9% 100% 0% 95% 0% 100%);
@@ -22,4 +23,11 @@
 .profile_image img{
     width: 90%;
     border-radius: 15%;
+}
+.Button_download{
+    display: flex;
+    gap: 10px;
+    text-align:justify;
+    margin-bottom: 10%;
+
 }

@@ -1,9 +1,11 @@
 :root{
-    --main-color: #7363E5;
+    --main-color: #751A7F;
     --line-color: #B3B5BB;
+    --bg-color:#0198FF
 }
 *{
-    margin-top: 1% !important;
+    padding-top: 1% !important;
+    
 }
 
 .container_shadow {

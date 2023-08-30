@@ -22,25 +22,25 @@ const MyTimeline = () => {
           </TimelineSeparator>
           <TimelineContent>
             <Typography variant="h6" className={"timeline_header"}>
-              <h6>{resumeData.timelinetitle}</h6>
+              <h6 className="timeline_h6">{resumeData.timelinetitle}</h6>
             </Typography>
             <h6></h6>
           </TimelineContent>
         </TimelineItem>
 
-        {resumeData.timelinelist.map((item) => {
+        {resumeData.timelinelist.map((item, index) => {
           return (
             <TimelineItem className={"timeline_item"}>
               <TimelineSeparator className={"timeline_sep"}>
                 <TimelineDot className={"timeline_dot"} />
-                <TimelineConnector />
+                {index !== resumeData.timelinelist.length - 1 && (
+                  <TimelineConnector />
+                )}
               </TimelineSeparator>
               <TimelineContent>
                 <Typography className={"timeline_header"}>
-                  <h6>
-                    {item.first}
-                    {item.sec}
-                  </h6>
+                  <h6 className="timeline_h6">{item.first}</h6>
+                  <h6 className="timeline_h6"> {item.sec}</h6>
                 </Typography>
               </TimelineContent>
             </TimelineItem>

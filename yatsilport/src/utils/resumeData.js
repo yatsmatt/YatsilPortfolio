@@ -4,29 +4,29 @@ import CodeIcon from "@mui/icons-material/Code";
 export default {
   name: "yatsil is coding",
   title: "Full stack developer",
+  LinkToCv:
+    "https://drive.google.com/u/0/uc?id=1rgwqqONwFt7jBoGjBpo7UiRQ9VhhN-vl&export=download",
   timelinetitle: "Bachelor of Computer Science",
   timelinelist: [
     { first: "Name:", sec: "Yatsil Mattok" },
     { first: "Occupation:", sec: "Web developer" },
     { first: "Email:", sec: "Yatsilmatt@gmail.com" },
   ],
-  socials: {
-    Linkedin: {
+  socials: [
+    {
       link: "https://www.linkedin.com/in/yatsil-mattok/",
-      text: "MyLinkedin",
+      text: "Linkedin",
       icon: <LinkedInIcon />,
     },
-    Github: {
+    {
       link: "https://github.com/yatsmatt",
-      text: "MyGithub",
+      text: "Github",
       icon: <GitHubIcon />,
     },
-    Gitlab: {
+    {
       link: "https://gitlab.com/yatsilmatt",
-      text: "MyGitlab",
+      text: "Gitlab",
       icon: <CodeIcon />,
     },
-    LinkToCv:
-      "https://drive.google.com/u/0/uc?id=1rgwqqONwFt7jBoGjBpo7UiRQ9VhhN-vl&export=download",
-  },
+  ],
 };

@@ -1,19 +1,10 @@
 .timeline{
     padding:0 !important;
+    text-align: center;
     
 }
 
-.timeline .timeline_header{
-    padding-top: 7px;
-}
-.timeline .timeline_firstitem{
-    min-height: 80px !important;
-    
-}
-.timeline .MuiTimelineItem-root{
-    min-height: 0px;
-    
-}
+
 .timeline .MuiTimelineItem-missingOppositeContent:before{
     display:none;
     
@@ -22,7 +13,6 @@
 .timeline .timeline_dot_header{
     color: bisque;
     background-color: var(--main-color);
-    font-size: small !important;
     padding: 0px !important;
     
 }
@@ -40,10 +30,11 @@
     font-size: 150%;
     color: var( --line-color);
 }
-.timeline .timeline_sep{
-    padding-left: 18px !important;
-}
+
 .timeline .timeline_item{
     padding-left: 8px !important;
 
+}
+.timeline_h6{
+    font-weight: 700;
 }
