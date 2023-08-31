@@ -1,0 +1,16 @@
+.footer{
+    background-color:#02010F ;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    padding: 2% 2%;
+    
+}
+
+.footer .me > a {
+    text-decoration: none;
+    color: var(--bg-color);
+}
