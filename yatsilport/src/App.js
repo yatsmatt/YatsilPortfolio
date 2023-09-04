@@ -14,7 +14,9 @@ function App() {
         </Grid>
         <Grid item xs>
           <Header />
-          <Router />
+          <div className="main_container">
+            <Router />
+          </div>
           <Footer />
         </Grid>
       </Grid>

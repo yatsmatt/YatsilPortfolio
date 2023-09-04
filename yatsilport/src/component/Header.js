@@ -10,8 +10,23 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import CodeIcon from "@mui/icons-material/Code";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { element } from "prop-types";
 const Header = ({ props }) => {
   const path = window.location.pathname;
+  const headerpages = [
+    {
+      name: "Home",
+      path: "/",
+    },
+    {
+      name: "Porfolio",
+      path: "/porfolio",
+    },
+    {
+      name: "Resume",
+      path: "/resume",
+    },
+  ];
 
   return (
     <div>
@@ -23,20 +38,17 @@ const Header = ({ props }) => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>
-              <Nav.Link
-                href="/"
-                className={path === "/" ? "header_link_active" : "header_link"}
-              >
-                Home
-              </Nav.Link>
-              <Nav.Link
-                href="/resume"
-                className={
-                  path === "/resume" ? "header_link_active" : "header_link"
-                }
-              >
-                Resume
-              </Nav.Link>
+              {headerpages.map((page, index) => (
+                <Nav.Link
+                  key={index}
+                  href={page.path}
+                  className={
+                    path === page.path ? "header_link_active" : "header_link"
+                  }
+                >
+                  {page.name}
+                </Nav.Link>
+              ))}
             </Nav>
           </Navbar.Collapse>
           <div className="social-icons">
