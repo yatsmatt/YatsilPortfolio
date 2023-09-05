@@ -6,6 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Carousel from "react-bootstrap/Carousel";
 import { Button, Typography } from "@mui/material";
+import Typical from "react-typical";
 import "./Home.css";
 const Home = () => {
   const allCategories = Skils.skils.map(
@@ -26,24 +27,56 @@ const Home = () => {
   return (
     <div>
       <div className="home-container">
-        <h1>Hello and welcome to my page</h1>
-        <h6>Learn more about me and my skills</h6>
+        <h1>About Me</h1>
+        <div className="animated_text">
+          <h6>
+            I am a{" "}
+            <Typical
+              loop={Infinity}
+              wrapper="b"
+              steps={[
+                "full stack developer",
+                3000,
+                "React/React native developer",
+                3000,
+                "Bachelor of Computer Science",
+                3000,
+                "Freelancer",
+                3000,
+              ]}
+            ></Typical>
+          </h6>
+        </div>
+        <div className="about me">
+          {Skils.aboutme.map((item) => {
+            return (
+              <div>
+                {" "}
+                <h6>{item.title}</h6>
+                <p>{item.info}</p>{" "}
+              </div>
+            );
+          })}
+        </div>
         <div>
           <div>
             <Navbar expand="lg" className="navbar">
               <Container>
+                <p>Technical Skills:</p>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                  <Nav className="me-auto">
+                  <Nav className="mx-auto">
                     {allCategories.map((item) => {
                       return (
-                        <Nav.Link
-                          onClick={() => {
-                            onCat(item);
-                          }}
-                        >
-                          {item}
-                        </Nav.Link>
+                        <h6>
+                          <Nav.Link
+                            onClick={() => {
+                              onCat(item);
+                            }}
+                          >
+                            {item}
+                          </Nav.Link>
+                        </h6>
                       );
                     })}
                   </Nav>

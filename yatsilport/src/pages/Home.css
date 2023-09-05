@@ -1,7 +1,9 @@
 
 .home-container {
+  align-items: center;
     text-align: center;
     padding: 20px;
+    
   }
 .carousel-container {
     margin-top: 20px;
@@ -15,7 +17,7 @@
   }
   
   .carousel-caption {
-    background-color: rgba(138, 133, 133, 0.623);
+    background-color: rgba(66, 62, 62, 0.623);
     color: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -24,3 +26,4 @@
   .home-container .item_name{
     color: aliceblue;
   }
+  

@@ -2,14 +2,13 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import CodeIcon from "@mui/icons-material/Code";
 export default {
-  name: "yatsil is coding",
-  title: "Full stack developer",
+  name: "yatsil Mattok",
+  title: "Freelancer",
   LinkToCv:
     "https://drive.google.com/u/0/uc?id=1rgwqqONwFt7jBoGjBpo7UiRQ9VhhN-vl&export=download",
   timelinetitle: "Bachelor of Computer Science",
   timelinelist: [
-    { first: "Name:", sec: "Yatsil Mattok" },
-    { first: "Occupation:", sec: "Web developer" },
+    { first: "Occupation:", sec: "Developer" },
     { first: "Email:", sec: "Yatsilmatt@gmail.com" },
   ],
   socials: [

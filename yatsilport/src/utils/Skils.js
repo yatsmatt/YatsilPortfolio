@@ -118,4 +118,23 @@ export default {
       ],
     },
   ],
+  aboutme: [
+    {
+      title: "Education and Background",
+      info: "I hold a Bachelor's degree in Computer Science, which has equipped me with a solid foundation in software development and problem-solving. While I may not have extensive work experience yet, I'm on an exciting journey to apply my knowledge and skills in real-world projects.",
+    },
+    {
+      title: "Full Stack Developer and Freelancer",
+      info: "My time is primarily spent immersed in the realm of full-stack development. I thrive on creating web applications that are both functional and visually appealing. As I embark on my career path, I'm eager to explore freelance opportunities, seeking to broaden my horizons and gain practical experience.",
+    },
+    {
+      title: "Web Development Goal",
+      info: "My ultimate goal is to establish myself as a web developer, crafting digital experiences that not only meet but exceed expectations. I aspire to create web solutions that are user-friendly, aesthetically pleasing, and technically robust.",
+    },
+    {
+      title:
+        "My ultimate goal is to establish myself as a web developer, crafting digital experiences that not only meet but exceed expectations. I aspire to create web solutions that are user-friendly, aesthetically pleasing, and technically robust.",
+      info: "Join me on this exciting journey into the world of web development and technology. Together, we'll explore the ever-evolving landscape of computer science, learn new skills, and tackle exciting challenges. Whether you're a fellow enthusiast, a potential collaborator, or a prospective client, I'm eager to connect and share this adventure with you.",
+    },
+  ],
 };
