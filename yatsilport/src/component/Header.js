@@ -19,12 +19,12 @@ const Header = ({ props }) => {
       path: "/",
     },
     {
-      name: "Porfolio",
-      path: "/porfolio",
-    },
-    {
       name: "Resume",
       path: "/resume",
+    },
+    {
+      name: "Porfolio",
+      path: "/porfolio",
     },
   ];
 
@@ -37,7 +37,7 @@ const Header = ({ props }) => {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav>
+            <Nav className="mx-auto">
               {headerpages.map((page, index) => (
                 <Nav.Link
                   key={index}
