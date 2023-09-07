@@ -1,0 +1,57 @@
+
+.main_div_cart{
+  text-align: center !important;
+}
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 20px; 
+  padding: 20px; 
+  margin: 0 auto; 
+}
+
+@media (min-width: 768px) {
+  .project-cards {
+    gap: 40px; 
+  }
+
+  .project-cards .MuiCard-root {
+    width: calc(50% - 10px); 
+  }
+}
+
+@media (max-width: 767px) {
+  .project-cards .MuiCard-root {
+    width: 100%; 
+  }
+}
+.project-cards .MuiCard-root .MuiCardActions-root {
+  display: flex;
+  justify-content: center;
+}
+.my_link {
+  text-decoration: none;
+  color: white;
+
+}
+.my-card:hover {
+  transform: translateY(1px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+.project-cards .MuiCard-root .MuiButton-root {
+  background-color: var(--main-color); 
+  color: white; 
+ 
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+.text_div{
+  padding: 0% 4% 0% 4%;
+}

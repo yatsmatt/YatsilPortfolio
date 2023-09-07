@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@500&family=Kanit:wght@200&display=swap');
 body{
-    font-family: 'David Libre', serif;
+    font-family: 'David Libre', serif !important;
     background-color: black;
     
     background: url('https://images.ctfassets.net/zmrtlfup12q3/6dYmfAQZk1UZecsgzkld5e/e2b2000384effa0d1c05e57b38bbc8c5/Header_GIF.gif');
