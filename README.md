@@ -1,2 +1,0 @@
-# YatsilPortfolio
-my personal website
