@@ -3,8 +3,9 @@ import Skils from "../utils/Skils";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
 import Carousel from "react-bootstrap/Carousel";
-import { Typography } from "@mui/material";
+import { Button, Typography } from "@mui/material";
 import Typical from "react-typical";
 import "./Home.css";
 const Home = () => {
