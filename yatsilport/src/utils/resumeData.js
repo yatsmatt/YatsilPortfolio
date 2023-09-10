@@ -4,8 +4,7 @@ import CodeIcon from "@mui/icons-material/Code";
 export default {
   name: "yatsil Mattok",
   title: "Freelancer",
-  LinkToCv:
-    "https://drive.google.com/u/0/uc?id=1rgwqqONwFt7jBoGjBpo7UiRQ9VhhN-vl&export=download",
+  LinkToCv: "",
   timelinetitle: "Bachelor of Computer Science",
   timelinelist: [
     { first: "Occupation:", sec: "Developer" },

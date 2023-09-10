@@ -19,12 +19,12 @@ const Header = ({ props }) => {
       path: "/",
     },
     {
-      name: "Resume",
-      path: "/resume",
-    },
-    {
       name: "Porfolio",
       path: "/porfolio",
+    },
+    {
+      name: "Contact",
+      path: "/contact",
     },
   ];
 

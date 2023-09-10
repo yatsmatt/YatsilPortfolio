@@ -1,0 +1,26 @@
+.div_contact {
+  align-items: center;
+    text-align: center;
+    padding: 20px;
+    
+  }
+.div_contact .MuiCard-root .MuiButton-root {
+    background-color: var(--main-color); 
+    color: white; 
+   
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  
+  
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+.mybutton{
+  background-color: var(--main-color) !important; 
+  color: white !important; 
+}
+.mybutton:hover{
+  transform: translateY(1px);
+}
