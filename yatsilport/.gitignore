@@ -5,8 +5,10 @@
 /.pnp
 .pnp.js
 .resumeData.js
+ 
  yatsilport/src/utils/*
-
+/src/utils/*
+utils/*
 # testing
 /coverage
 
