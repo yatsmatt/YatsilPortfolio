@@ -5,7 +5,8 @@
 /.pnp
 .pnp.js
 .resumeData.js
-src/utils/resumeData.js
+src/utils/*
+
 # testing
 /coverage
 
